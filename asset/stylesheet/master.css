@@ -1,0 +1,73 @@
+@font-face {
+  font-family: mooli;
+  src: url(../font/Mooli-Regular.ttf);
+}
+body {
+  width: 100%;
+  font-family: mooli;
+}
+
+.bgi1 {
+  background-image: url(../img/bg_1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.bgi1 .point {
+  cursor: pointer;
+}
+.bgi1 .rotate {
+  transform: rotate(90deg);
+}
+.bgi1 a, .bgi1 h2, .bgi1 div, .bgi1 span {
+  text-shadow: 1px 1px 10px black;
+}
+@media screen and (max-width: 768px) {
+  .bgi1 {
+    background-position: -300px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bgi1 {
+    background-position: 0 0;
+  }
+}
+.bgi1 .menu {
+  cursor: pointer;
+}
+
+.icon p {
+  color: rgb(92, 92, 92);
+}
+
+.butt {
+  border-radius: 40px;
+  border: solid white;
+  background-color: #005d14;
+  transition: 0.4s;
+}
+.butt:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.butt2 {
+  border-radius: 10px;
+  border: solid white;
+  background-color: #00430f;
+  transition: 0.4s;
+}
+.butt2:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.box {
+  box-shadow: 1px 1px 10px solid black;
+}
+
+.person {
+  border-radius: 50%;
+  margin: 0 20%;
+}
+
+imgb {
+  border: 3px solid white;
+}/*# sourceMappingURL=master.css.map */
